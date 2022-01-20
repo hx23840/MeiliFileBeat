@@ -2,13 +2,17 @@ module MeiliFileBeat
 
 go 1.17
 
-require github.com/elastic/beats/v7 v7.16.3
+require (
+	github.com/elastic/beats/v7 v7.16.3
+	github.com/meilisearch/meilisearch-go v0.17.0
+)
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
 	github.com/Shopify/sarama v1.30.1 // indirect
 	github.com/StackExchange/wmi v0.0.0-20170221213301-9f32b5905fd6 // indirect
+	github.com/andybalholm/brotli v1.0.2 // indirect
 	github.com/armon/go-radix v1.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/containerd/containerd v1.5.7 // indirect
@@ -65,9 +69,11 @@ require (
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/joeshaw/multierror v0.0.0-20140124173710-69b34d4ec901 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
+	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/magefile/mage v1.11.0 // indirect
+	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/miekg/dns v1.1.25 // indirect
@@ -91,6 +97,8 @@ require (
 	github.com/urso/go-bin v0.0.0-20180220135811-781c575c9f0e // indirect
 	github.com/urso/magetools v0.0.0-20190919040553-290c89e0c230 // indirect
 	github.com/urso/sderr v0.0.0-20210525210834-52b04e8f5c71 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
+	github.com/valyala/fasthttp v1.31.0 // indirect
 	github.com/xdg/scram v1.0.3 // indirect
 	github.com/xdg/stringprep v1.0.3 // indirect
 	go.elastic.co/apm v1.11.0 // indirect
